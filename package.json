@@ -9,6 +9,7 @@
   ],
   "author": "Ravidhu Dissanayake",
   "license": "MIT",
+  "repository": "ravidhu/controlled-promise-list",
   "keywords": [
     "promise",
     "limit",

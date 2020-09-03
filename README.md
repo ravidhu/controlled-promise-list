@@ -64,7 +64,7 @@ Notice : if you set ```concurrentRunNumber``` to 1, it will run each promise seq
 ### Setup
 
 1) Clone this repository
-2) ```yarn install``
+2) ```yarn install```
 
 ### Run tests
 
