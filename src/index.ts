@@ -11,7 +11,7 @@ export * from './interfaces';
  *
  * @return Promise
  */
-export default async function controlledPromiseList(
+export default function controlledPromiseList(
     promiseFunctionList: PromiseFunction[],
     concurrentRunNumber: number = 10,
     onProgress: OnProgressFunction|null = null
