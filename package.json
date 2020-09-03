@@ -30,7 +30,6 @@
     "then"
   ],
   "scripts": {
-    "dev": "rm -rf dist/* && nodemon",
     "test": "mocha --require tests/typescript.js --watch-extensions ts --timeout 30000 'tests/**/*.ts'",
     "build": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
     "prepare": "npm run build"
